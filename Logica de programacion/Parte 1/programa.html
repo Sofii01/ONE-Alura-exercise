@@ -1,0 +1,36 @@
+<meta charset="UTF-8">
+
+<h1>Programa</h1>
+
+<script>
+	// aplicamos el uso de funciones
+
+	function saltarLinea(){
+		document.write("<br>");
+		document.write("<br>");
+		document.write("<br>");
+		document.write("<hr>"); // linea 
+		document.write("<br>");
+		document.write("<br>");
+	}
+
+	function imprimir(mensaje){
+		document.write("<big>" + mensaje + "</big>");
+		saltarLinea()
+	}
+
+	// Este codigo calcula la edad de juan, pedro y carlos
+
+	var anio =2025;
+
+	imprimir("Juan tiene: " + (anio-2000) + " años.");
+
+	imprimir("Pedro tiene: " + (anio-1995) + " años.");
+
+	anio =2030;
+	
+	imprimir("Carlos tiene: " + (anio-2005) + " años.");
+	
+
+
+</script>
